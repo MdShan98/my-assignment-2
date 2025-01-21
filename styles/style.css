@@ -157,11 +157,39 @@
 .pic-cart h3{
     padding: 10px;
 }
+/* footer section styles starts */
 
-
+footer{
+    background-color: rgba(1, 172, 253, 1);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px;
+}
+.colom-one{
+    width: 20%;
+}
+.kids{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.about-s ul li{
+    list-style: none;
+    margin-top: 40px;
+}
+.about-s ul li a{
+    text-decoration: none;
+    color: white;
+}
+.touch-img a{
+    margin-right: 20px;
+}
+.touch-images{
+    margin-top: 30px;
+}
 @media screen and (max-width: 576px) {
-     
-    .navbar, .logo, .list > ul{
+    .navbar , .logo, .list > ul{
         flex-direction: column;
         justify-content: center;
         width: 80%;
