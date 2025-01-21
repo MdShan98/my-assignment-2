@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.q-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+.list ul li{
+
+    padding: 20px;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.n-btn{
+    border: none;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 12px;
+    width: 100px;
+}
+
+/* banner section styles  */
+
+.banner{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.b-description{
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+}
+.b-img{
+    max-width: 50%;
+    justify-content: right;
+    overflow: hidden;
+}
+.b-title{
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+.enroll-btn{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 20px;
+}
