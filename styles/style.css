@@ -80,8 +80,9 @@
     margin-top: 20px;
 }
 /* curriculum section styles */
-.curriculim{
+.curriculum{
     text-align: center;
+    margin-top: 80px;
 }
 .s-title{
     font-size: 3rem;
@@ -91,7 +92,7 @@
     margin-top: 30px;
     display: flex;
     gap: 30px;
-    max-width: 90%;
+    width: 90%;
     border-radius: 12px;
 }
 .cart{
@@ -218,5 +219,19 @@ footer{
     }
     .b-title{
         font-size: 2em;
+    }
+    .curriculum{
+        width: 250px;
+    }
+    .s-title{
+        font-size: 1.5em;
+    }
+    .cart-container{
+        margin-top:30px;
+        flex-direction: column;
+    }
+    .cart{
+        width: 80%;
+        margin: 0 auto;
     }
 }
