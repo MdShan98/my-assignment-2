@@ -144,6 +144,9 @@
     background-color: white;
     text-align: left;
 }
+.img_btn{
+    position: relative;
+}
 .first-clm img{
     width: 100%;
     height: 60%;
